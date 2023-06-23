@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:image" content="https://uncodemydevin.netlify.app/image/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncodemy-Course</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+    <link rel="stylesheet" href="css/stylee.css">
+    <link rel="stylesheet" href="css/responsive2.css">
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+   
+</head>
+<body>
+
+
+    <nav>
+
+        <div class="nav-top-head">
+            
+            <span>Email:<a href="mailto:info@uncodemy.com">info@uncodemy.com</a></span>
+            <span> / </span>
+       
+       
+            <a href="tel:+917701928515" style="text-decoration: none;"> <span>India : +91 7701928515</span></a>
+            <span> / </span>
+          
+            
+            <a href="tel:+1-7184169028" style="text-decoration: none;">
+            <span>US : +1-718 416 9028</span>
+        </a>
+            <span> / </span>
+           
+            
+            <a href="tel:+442032870088" style="text-decoration: none;">
+            <span>UK : +44 20 3287 0088</span>
+            </a>
+           <span style="width: 3px; height: 17px; background-color: white;"></span>
+           
+            <span><b>HR Enquiry :</b> <span style="color: #ff5421;" ><a href="tel:+917701928515" style="text-decoration: none; color: #ff5421;">770 192 8515</a></span></span>
+           
+            </div>
+        <div class="nav-container">
+
+            <i class="fa-solid fa-bars hamburger" onclick="showNavigation()"></i>
+            <a href="/"> <div class="logo-container">
+                <img src="image/uncodemy-logo.jpg">
+              </div></a>
+    
+            <div class="navigation-container">
+                <div class="navigation-section">
+                    <ul>
+                       <a href="/"><li>Home</li></a> 
+                        <a href="about-us.html"><li>About </li></a>
+                        <li id="course-text"> <label onclick="showDropDown()" style="cursor: pointer;">Courses</label> <i class="fa-solid fa-caret-down" id="dropdown-arrow"></i>
+                        
+                        
+                            <div class="dropdown dropdown-course">
+                                <div class="course-detail-section">
+                                <div class="course-left-section">
+                                    <ul>
+                                        <li class = "course-name-dropdown" id="active-dropdown-course">Data Science</li>
+                                        <li class = "course-name-dropdown">Full Stack Development</li>
+                                        <li class = "course-name-dropdown">Software Testing</li>
+                                        <li class = "course-name-dropdown">Digital Marketing</li>
+                                    </ul>
+                                </div>
+                                <div class="course-right-section">
+                                    <div class="course-image-text" id="active-course">
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/python.jpg">
+                                        </div>
+                                        <span>Python</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/data-analytics-using-python.jpg">
+                                        </div>
+                                        <span>Data Analytics using Python</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/Data-Science-Machine-Learning-using-Python-1.jpg">
+                                        </div>
+                                        <span>Data Science & Machine Learning Using Python</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/Machine-Learning-using-Python.jpg">
+                                        </div>
+                                        <span>Machine Learning Using Python</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/AI-using-Python-1.jpg">
+                                        </div>
+                                        <span>AI using Python</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-image-text">
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/full-stack-nodejs.jpg">
+                                        </div>
+                                        <span>Full Stack with NodeJs</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/Python-Full-Stack-1.jpg">
+                                        </div>
+                                        <span>Python Full Stack</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/java-full-stack-react.jpg">
+                                        </div>
+                                        <span>Java Full Stack using React</span>
+                                        </div>
+                                    
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/mean.jpg">
+                                        </div>
+                                        <span>MEAN</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/mern.jpg">
+                                        </div>
+                                        <span>MERN</span>
+                                        </div>
+                                    </div>
+                                    <div class="course-image-text">
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/software-testing.jpg">
+                                        </div>
+                                        <span>software Testing</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/manual-testing.jpg">
+                                        </div>
+                                        <span>Manual Testing</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/manaul-selenium.jpg">
+                                        </div>
+                                        <span>Manual + Selenium</span>
+                                        </div>
+                                    
+                                        
+                                      
+                                    </div>
+                                    <div class="course-image-text">
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/Digital-Marketing.jpg">
+                                        </div>
+                                        <span>Digital Marketing</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/Advance-Digital-Marketing.jpg">
+                                        </div>
+                                        <span>Advance Digital Marketing</span>
+                                        </div>
+                                        <div class="course">
+                                            <div class="course-img">
+                                            <img src="image/seo.jpg">
+                                        </div>
+                                        <span>Search Engine Optimisation (SEO)</span>
+                                        </div>
+                                    
+                                        
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                             </div>
+                        </li>
+                        <a href="contact-us.html"><li>Course Details</li></a>
+                        <li>Our Feature</li>
+                        <li>Instructor</li>
+                       <a href="contact-us.html"> <li>Contact</li></a>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+
+    <div class="contact-banner-container">
+        <div class="contact-banner-image"></div>
+        <div class="banner-text">
+            <h2>We're Here to Help!</h2>
+            <span>Please Contact us in case of any query. We are happy to help you.</span>
+        </div>
+    </div>
+
+
+    <div class="address-google-map main-container">
+        <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.383674304779!2d77.3117604746322!3d28.588264586091178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5d8c0000001%3A0xea5a624c23e5f7db!2sUncodemy%20-%20Data%20Science%20*21%20Software%20Testing%20*21%20Full%20Stack%20Developer%20*21%20Python%20*21%20Java%20*21%20Digital%20Marketing!5e0!3m2!1sen!2sin!4v1687166090133!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+    <div class="query-container container">
+        <div class="query-thumb">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h3>For Enrollment Queries</h3>
+            <a href="tel:+917701928515" style="text-decoration: none; color: black;"><span>7701928515 </span></a>
+            <hr>
+            <a href="mailto:info@uncodemy.com" style="text-decoration: none; color: black;"> <span>info@uncodemy.com
+            </span></a>
+        </div>
+        <div class="query-thumb">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h3>For Business Queries</h3>
+            <a href="tel:+917701928515" style="text-decoration: none; color: black;"><span>7701928515 </span></a>
+            <hr>
+            <a href="mailto:info@uncodemy.com" style="text-decoration: none; color: black;"> <span>info@uncodemy.com
+            </span></a>
+        </div>
+        <div class="query-thumb">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h3>For Support Queries</h3>
+            <a href="tel:+917701928515" style="text-decoration: none; color: black;"><span>7701928515 </span></a>
+            <hr>
+            <a href="mailto:info@uncodemy.com" style="text-decoration: none; color: black;"> <span>info@uncodemy.com
+            </span></a>
+        </div>
+    </div>
+
+    <div class="registered-office-container">
+        <div class="registered-office-section container">
+            <h1>Registered Offices</h1>
+
+            <div class="office-details-conatainer">
+                <div class="office-thumb">
+                    <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Noida, India</span>
+                </div>
+
+                <div class="address">
+                    <h3>UnCodemy</h6>
+                   <a href="https://www.google.com/maps/place/Uncodemy+-+Data+Science+!+Software+Testing+!+Full+Stack+Developer+!+Python+!+Java+!+Digital+Marketing/@28.588966,77.31566,16z/data=!4m6!3m5!1s0x390ce5d8c0000001:0xea5a624c23e5f7db!8m2!3d28.5882599!4d77.3143354!16s%2Fg%2F11r_cgds48?hl=en&entry=ttu" target="_blank" ><p>B 14-15, Udhyog Marg, Block B, Sector 1, Noida, Uttar Pradesh 201301</p></a>
+                </div>
+
+                <a href="tel:+917701928515" style="text-decoration: none;"> <p>Call us at: +91 7701928515</p></a>
+                </div>
+                <div class="office-thumb">
+                    <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Florida, Unites States</span>
+                </div>
+
+                <div class="address">
+                    <h3>UnCodemy</h6>
+                    <p>USA- 2439 Bagwell Avenue, Gainesville, Florida-32601</p>
+                </div>
+
+                <a href="tel:+1-7184169028" style="text-decoration: none;">  <p>Call us at: +1-718 416 9028</p></a>
+                </div>
+                <div class="office-thumb">
+                    <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>London, United Kingdom</span>
+                </div>
+
+                <div class="address">
+                    <h3>UnCodemy</h6>
+                    <p>
+                        UK - 68 Southern Way, North Lopham, London IP22 0HE</p>
+                </div>
+
+                <a href="tel:+442032870088" style="text-decoration: none;">  <p>Call us at: +44 20 3287 0088</p></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+    <!-- ----------- pop up form --------------- -->
+
+    <div class="pop-up-form-container">
+        <div class="form-section">
+            <i class="fa-sharp fa-solid fa-square-xmark"  style="color: #ff5421;" onclick="hidePopUpForm()"></i>
+            <div class="form-top-head">
+                Application Form
+            </div>
+            <form id="form" onsubmit="submitPopUpForm(event)">
+                <input type="text" placeholder="Enter Your Name*" required name="name" onchange="setPopUpFormValue(this.name, this.value)">
+                <input type="tel" required maxlength="10" minlength="10" id="mobile-input" name="mobile" oninput="numberOnly()" placeholder="Enter Your Phone No.*" required name="name" onchange="setPopUpFormValue(this.name, this.value)">
+                <input type="email" placeholder="Enter Your Email*" required name="email" onchange="setPopUpFormValue(this.name, this.value)">
+    
+                <select name="course" required onchange="setPopUpFormValue(this.name, this.value)">
+                    <option selected disabled value="">Select Your Course</option>
+                    <option >Data Science</option>
+                    <option>Full Stack Development</option>
+                    <option>Software Testing</option>
+                    <option>Digital Marketing</option>
+                    <option>Network & Security</option>
+                </select>
+                
+                <div class="schedule-date schedule">
+                <input type="date" name="date" id="inputdate" required onchange="setPopUpFormValue(this.name, this.value)">
+                <label>Scheduled Date*</label>
+            </div> 
+    
+            <div class="schedule-time">
+                <div class="time-part">
+                <input type="time" name="fromTime" required onchange="setPopUpFormValue(this.name, this.value)">
+                <label>From*</label>
+            </div>
+    
+            <div class="time-part">
+                <input type="time" name="toTime" required onchange="setPopUpFormValue(this.name, this.value)">
+                <label>To*</label>
+            </div>
+            </div>
+    
+            <input type="submit" class="submit-btn">
+    
+            </form>
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+<footer>
+       
+    <!-- Footer Start -->
+    <div  class="container-fluid position-relative overlay-top bg-dark text-white-50 px-0 py-5  footer2" class="start">
+        <div class="main-container footer-container">
+         
+            <div class="row footer-middle">
+
+                <div class="footer-thumb footer-thumb-1 mb-5">
+                    <a href="index.html" class="navbar-brand mb-3">
+                       <img src="image/uncodemy-logo.jpg">
+                    </a>
+                    <p class="m-0">Uncodemy is a team of high-class working professionals associated with a Fortune 500 company. We are on a mission to employ millions. if you want a job, or career change, Uncodemy is the right place for you. We will teach you how to work with the latest technology.</p>
+                
+                
+                
+                    <div class="d-flex justify-content-start mt-4 social-icon-container">
+                        <a class="text-white mr-4" href="https://twitter.com/uncodemy?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="text-white mr-4" href="https://www.facebook.com/uncodemyofficial/" target="_blank"><i class="fab fa-2x fa-facebook-f"></i></a>
+                        <a class="text-white mr-4" href="https://www.linkedin.com/company/uncodemy?originalSubdomain=in" target="_blank"><i class="fab fa-2x fa-linkedin-in"></i></a>
+                        <a class="text-white" href="https://www.instagram.com/uncodemyofficial/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+
+
+                <div class="footer-thumb mb-5">
+                    <h3 class="text-white mb-3">Get In Touch</h3>
+                   
+                    <div class="footer-flex">
+                        <i class="fa fa-map-marker-alt mr-2"></i> <p>B 14-15, Udhyog Marg, Block B, Sector 1, Noida, Uttar Pradesh 201301</p>
+                </div>
+
+               <div class="footer-flex">  <i class="fa fa-phone-alt mr-2"></i> <p>+91 7701928515</span></p></div>
+               <div class="footer-flex"> <i class="fa fa-envelope mailto:mr-2"></i> <p>info@uncodemy.com</p></div>
+               <hr>
+
+               <div class="footer-flex">
+                <i class="fa fa-map-marker-alt mr-2"></i> <p>
+                    USA- 2439 Bagwell Avenue, Gainesville, Florida-32601</p>
+        </div>
+
+       <div class="footer-flex">  <i class="fa fa-phone-alt mr-2"></i> <p>+1-718 416 9028</span></p></div>
+       <hr>
+       <div class="footer-flex">
+        <i class="fa fa-map-marker-alt mr-2"></i> <p>
+            UK - 68 Southern Way, North Lopham, London IP22 0HE</p>
+</div>
+
+
+<div class="footer-flex">  <i class="fa fa-phone-alt mr-2"></i> <p>+44 20 3287 0088</span></p></div>
+
+
+
+
+                </div>
+                
+    
+                <div class="footer-thumb mb-5">
+                    <h3 class="text-white mb-3">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start" style="font-family:'Roboto', sans-serif;;">
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms &
+                            Condition</a>
+                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Refund Policy</a>
+                        <a class="text-white-50 mb-2" href="payment.html"><i class="fa fa-angle-right mr-2"></i>Fee Payments</a>
+                        <a class="text-white-50" href="contact-us.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="footer-thumb mb-5">
+                    <h3 class="text-white mb-3">Other Links</h3>
+                    <div class="d-flex flex-column justify-content-start" style="font-family:'Roboto', sans-serif;;">
+                        <a href="https://wa.link/5kqmus" class="text-white-50 mb-2" target="_blank"><i class="fa fa-angle-right mr-2"></i>WhatsApp</a>
+                        <a class="text-white-50 mb-2" onclick="showPopUpForm()"><i class="fa fa-angle-right mr-2"></i>Ask for Demo</a>
+                        <a class="text-white-50 mb-2" href="payment.html"><i class="fa fa-angle-right mr-2"></i>Internships</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    
+
+ 
+    <section class="footer bg-dark">
+        <div class="container">
+
+           <hr style="background-color: white;">
+
+           <div class="row">
+              <div class="col-lg-12">
+                 <div class="footer-bottom">
+                    <h2>Micro Degree Courses</h2>
+                    <div class="ft-course">
+                                                           <a href="">Big Data Hadoop - The Complete Course</a>
+                                         <a href="">PG Program in Investment Banking and Financial Modeling</a>
+                                         <a href="">PG Program in E-Commerce and Business Analytics</a>
+                                         <a href="">PG Program In Human Resource Management</a>
+                                         <a href="">PG Program in Full Stack Development Engineering</a>
+                                         <a href="">PG Program in Blockchain Development</a>
+                                         <a href="">PG Program in Data Science, Machine Learning &amp; Neural Networks</a>
+                                         <a href="">PG Program in Cloud Computing</a>
+                                         <a href="">Applied Data Science with Python</a>
+                                         <a href="">PG Program In Machine Learning</a>
+                                         <a href="">PG Program In Machine Learning And Artificial Intelligence</a>
+                                         <a href="">PG Program in Machine Learning and Natural Language Processing (NLP)</a>
+                                         <a href="">PG Program in Machine Learning and Deep Learning</a>
+                                         <a href="">PG Program in Data Analytics</a>
+                                         <a href="">Advanced PG Program in Data Analytics</a>
+                                         <a href="">PG Program in Business Analytics</a>
+                                         <a href="">DataTrained UnderGraduate Program (DTUP)</a>
+                                      </div>
+                    <h2>Certificate Courses</h2>
+                    <div class="ft-course">
+                                                           <a href="">Business Analytics with Tableau</a>
+                                         <a href="">SAS Programming Beginner to Advanced</a>
+                                         <a href="">Natural Language Processing: Machine Learning NLP In Python</a>
+                                         <a href="">Deep Natural Language Processing (Deep NLP)</a>
+                                         <a href="">Deep Learning and Neural Networks with Computer Vision</a>
+                                         <a href="">Certificate Program in Tableau</a>
+                                         <a href="">Certificate Program in Microsoft Power BI</a>
+                                         <a href="">Complete Time Series Analysis using Python</a>
+                                         <a href="">Cracking Interviews</a>
+                                         <a href="">Writing Professional Emails</a>
+                                         <a href="">The Art of Managing Time</a>
+                                         <a href="">Public Speaking for Workplace Success</a>
+                                         <a href="">LinkedIn Optimization - Creating Opportunities</a>
+                                         <a href="">How to get Frequent Promotions</a>
+                                         <a href="">Effective Job Search</a>
+                                         <a href="">Brush up your Personality</a>
+                                         <a href="">15 Secrets to Sell Better</a>
+                                         <a href="">Applied Data Science with R</a>
+                                         <a href="">Certificate program in Strategic Digital Marketing in collaboration with Analytics Jobs</a>
+                                         <a href="">Big Data Analytics</a>
+                                         <a href="">Machine learning with R</a>
+                                         <a href="">Scala Programming for Data Science</a>
+                                         <a href="">Big Data Engineering</a>
+                                      </div>
+                                </div>
+              </div>
+             
+           </div>
+        </div>
+     </section>
+ 
+
+
+    <div class="container-fluid bg-dark text-white-50 border-top py-4"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">UnCodemy</a>. All Rights
+                        Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0">Designed by <a class="text-white" href="#">UnCodemy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer End -->
+
+</footer>
+</head>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/7754bbda1a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    </body>
+    </html>
